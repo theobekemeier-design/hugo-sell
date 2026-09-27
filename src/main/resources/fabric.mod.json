@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hugo-sell",
+  "version": "${version}",
+  "name": "Hugo Sell",
+  "description": "Automatically moves player inventory items into the Hugo SMP sell GUI and confirms the sale.",
+  "authors": ["Theo"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.theo.hugosell.HugoSellClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "fabric-api": ">=0.140.0"
+  }
+}
